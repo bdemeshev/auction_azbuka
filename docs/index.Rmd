@@ -7,8 +7,8 @@ lang: ru-RU
 
 ### Книжка:
 
-* [Азбука моделирования аукционов: pdf](https://github.com/bdemeshev/auction_azbuka/raw/master/auct.pdf)
-* [Я нашёл опечатку!](https://github.com/bdemeshev/auction_azbuka/issues)
+* Азбука моделирования аукционов: [pdf, 16 см на 22 см](https://github.com/bdemeshev/auction_azbuka/raw/master/auct.pdf), теховские [исходники](https://github.com/bdemeshev/auction_azbuka/)
+* [Я нашёл опечатку!](https://github.com/bdemeshev/auction_azbuka/issues) Кликаем справа «New issue» и сообщаем об опечатке. 
 
 ### Лицензия
-Созданные мной для данного курса материалы распространяются по лицензии [Creative Commons Attribution-NonCommercial-ShareAlike](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru)
+Созданные мной для данного проекта материалы распространяются по лицензии [Creative Commons Attribution-NonCommercial-ShareAlike](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru)
