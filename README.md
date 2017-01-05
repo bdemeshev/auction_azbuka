@@ -1,2 +1,4 @@
-# auction_azbuka
-Open source Introductory book on auction theory in Russian. 
+# Азбука моделирования аукционов
+
+[Страничка учебника](https://bdemeshev.github.io/auction_azbuka/).
+
