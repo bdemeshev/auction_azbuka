@@ -3,7 +3,7 @@
 # .tex extension is automatically added
 file_name = auct
 
-$(file_name).pdf: $(file_name).tex lecture_01.tex lecture_02.tex lecture_03.tex lecture_04.tex kr_01.tex kr_02.tex kr_03.tex kr_04.tex kr_01_solution.tex kr_02_solution.tex kr_03_solution.tex kr_04_solution.tex title_bor_utf8.tex dogon_text.tex auc_ht3_solut.tex auc_problems.tex opit.bib
+$(file_name).pdf: $(file_name).tex lecture_01.tex lecture_02.tex lecture_03.tex lecture_04.tex kr_01.tex kr_02.tex kr_03.tex kr_04.tex kr_01_solution.tex kr_02_solution.tex kr_03_solution.tex kr_04_solution.tex title_bor_utf8.tex kr_dogon.tex kr_dogon_solution.tex kr_03_takehome.tex kr_03_takehome_solution.tex more_problems.tex opit.bib
 	# protection against biber error
 	# http://tex.stackexchange.com/questions/140814/
 	rm -rf `biber --cache`
