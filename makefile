@@ -19,4 +19,4 @@ $(file_name).pdf: $(file_name).tex lecture_01.tex lecture_02.tex lecture_03.tex 
 #	Rscript -e "library(knitr); knit('$(file_name).Rnw')"
 
 clean:
-	-rm $(file_name).pdf $(file_name).aux $(file_name).log $(file_name).fls $(file_name).fdb_latexmk $(file_name).idx $(file_name).out $(file_name).pre $(file_name).toc $(file_name).s.gnuplot $(file_name).pgf-plot.gnuplot $(file_name).ilg $(file_name).ind
+	-rm $(file_name).pdf $(file_name).aux $(file_name).log $(file_name).fls $(file_name).fdb_latexmk $(file_name).idx $(file_name).out $(file_name).pre $(file_name).toc $(file_name).s.gnuplot $(file_name).pgf-plot.gnuplot $(file_name).ilg $(file_name).ind $(file_name).bbl
