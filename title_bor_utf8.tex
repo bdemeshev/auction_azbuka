@@ -1,14 +1,23 @@
-\usepackage[margin=10mm, paperwidth=160mm, paperheight=220mm, includehead]{geometry}
+\usepackage[
+  paperwidth=160mm,
+  paperheight=220mm,
+  headheight=14mm,
+  left=10mm,
+  right=10mm,
+  top=20mm,
+  bottom=20mm
+]{geometry}
 
 
-\pagestyle{headings}
+%\pagestyle{headings}
 
 
 \usepackage{etex} % расширение классического tex
 % в частности позволяет подгружать гораздо больше пакетов, чем мы и займёмся далее
 
 \usepackage{verbatim} % для многострочных комментариев
-\usepackage{makeidx} % для создания предметных указателей
+\usepackage{imakeidx} % для создания предметных указателей
+%\indexsetup{level=\chapter}
 
 %%%%% russian xetex
 \usepackage{fontspec}
@@ -25,7 +34,13 @@
 \newfontfamily{\cyrillicfonttt}{Linux Libertine O}
 %%%%% end russian xetex
 
+\usepackage{fancyhdr}
 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RE]{\rightmark}
 
 \usepackage{setspace}
 \usepackage{amsmath, amsfonts, amssymb, amsthm}
@@ -99,7 +114,6 @@
 % 3. Единицы измерения - в шапку таблицы
 % 4. Не сокращайте .1 вместо 0.1
 % 5. Повторяющееся значение повторяйте, а не говорите "то же"
-
 
 
 
